@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Alex Morgan | Data Analyst</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/projects.css">
+  <script src="js/theme.js" defer></script>
+  <script src="js/projects.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">AM</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="index.html#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link active">Projects</a></li>
+          <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-light" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-dark" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg>
+        </button>
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="projects-hero">
+      <div class="container">
+        <h1 class="projects-title">My Projects</h1>
+        <p class="projects-subtitle">A collection of my data analysis and visualization work</p>
+      </div>
+    </section>
+
+    <section class="section projects-section">
+      <div class="container">
+        <div class="projects-filter">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="data-analysis">Data Analysis</button>
+          <button class="filter-btn" data-filter="machine-learning">Machine Learning</button>
+          <button class="filter-btn" data-filter="visualization">Data Visualization</button>
+        </div>
+        
+        <div class="projects-grid">
+          <div class="project-card" data-category="data-analysis visualization">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Retail Sales Dashboard">
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Tableau</span>
+                <span class="project-tag">SQL</span>
+                <span class="project-tag">Excel</span>
+              </div>
+              <h3 class="project-title">Retail Sales Dashboard</h3>
+              <p class="project-description">Developed an interactive dashboard for a retail client that visualizes sales trends, customer demographics, and product performance across multiple regions.</p>
+              <div class="project-links">
+                <a href="https://github.com/alexmorgan/retail-sales-dashboard" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                  <span>GitHub</span>
+                </a>
+                <a href="#" class="project-link" data-project="retail-sales-dashboard">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="machine-learning data-analysis">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/7788009/pexels-photo-7788009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Customer Churn Prediction">
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Scikit-Learn</span>
+                <span class="project-tag">Pandas</span>
+              </div>
+              <h3 class="project-title">Customer Churn Prediction</h3>
+              <p class="project-description">Built a machine learning model to predict customer churn for a subscription-based service, achieving 87% accuracy and identifying key factors contributing to customer attrition.</p>
+              <div class="project-links">
+                <a href="https://github.com/alexmorgan/churn-prediction" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                  <span>GitHub</span>
+                </a>
+                <a href="#" class="project-link" data-project="churn-prediction">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Notebook</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="visualization">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/590041/pexels-photo-590041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Global Health Indicators">
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Power BI</span>
+                <span class="project-tag">R</span>
+                <span class="project-tag">GIS</span>
+              </div>
+              <h3 class="project-title">Global Health Indicators</h3>
+              <p class="project-description">Created an interactive visualization of global health metrics across 180+ countries, exploring correlations between health outcomes and socioeconomic factors.</p>
+              <div class="project-links">
+                <a href="https://github.com/alexmorgan/global-health-viz" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                  <span>GitHub</span>
+                </a>
+                <a href="#" class="project-link" data-project="global-health-viz">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="data-analysis">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="E-commerce Market Analysis">
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">SQL</span>
+                <span class="project-tag">Excel</span>
+                <span class="project-tag">Tableau</span>
+              </div>
+              <h3 class="project-title">E-commerce Market Analysis</h3>
+              <p class="project-description">Conducted comprehensive market analysis for an e-commerce platform, identifying top-performing product categories and optimizing pricing strategy based on competitive analysis.</p>
+              <div class="project-links">
+                <a href="https://github.com/alexmorgan/ecommerce-analysis" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                  <span>GitHub</span>
+                </a>
+                <a href="#" class="project-link" data-project="ecommerce-analysis">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Report</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="machine-learning visualization">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/5926398/pexels-photo-5926398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Predictive Supply Chain Model">
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">TensorFlow</span>
+                <span class="project-tag">Matplotlib</span>
+              </div>
+              <h3 class="project-title">Predictive Supply Chain Model</h3>
+              <p class="project-description">Developed a time-series forecasting model to predict inventory needs and optimize supply chain operations, reducing stockouts by 23% and lowering inventory holding costs.</p>
+              <div class="project-links">
+                <a href="https://github.com/alexmorgan/supply-chain-forecasting" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                  <span>GitHub</span>
+                </a>
+                <a href="#" class="project-link" data-project="supply-chain-forecasting">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Notebook</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-category="data-analysis visualization">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Marketing Campaign Analysis">
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Google Analytics</span>
+                <span class="project-tag">Power BI</span>
+                <span class="project-tag">SQL</span>
+              </div>
+              <h3 class="project-title">Marketing Campaign Analysis</h3>
+              <p class="project-description">Analyzed performance of multi-channel marketing campaigns, providing insights that improved ROI by 18% and optimized budget allocation across digital channels.</p>
+              <div class="project-links">
+                <a href="https://github.com/alexmorgan/marketing-campaign-analysis" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                  <span>GitHub</span>
+                </a>
+                <a href="#" class="project-link" data-project="marketing-campaign-analysis">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  <span>Report</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-cta-section">
+      <div class="container">
+        <div class="contact-cta-content">
+          <h2 class="contact-cta-title">Interested in working together?</h2>
+          <p class="contact-cta-description">I'm always open to discussing new projects, data challenges, or opportunities to collaborate.</p>
+          <a href="index.html#contact" class="btn btn-primary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="project-modal" id="project-modal">
+      <div class="modal-content">
+        <button class="modal-close" id="modal-close" aria-label="Close modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+        <div class="modal-body" id="modal-body">
+          <!-- Content will be dynamically loaded here -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">&copy; 2025 Alex Morgan. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="https://linkedin.com/in/alexmorgan" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+          <a href="https://github.com/alexmorgan" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
